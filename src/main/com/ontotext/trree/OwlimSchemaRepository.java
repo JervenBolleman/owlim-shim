@@ -39,16 +39,19 @@ import org.openrdf.sail.SailException;
  */
 public class OwlimSchemaRepository implements Sail{
 
+    @Override
     public void setDataDir(File dataFileLocation)
     {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    @Override
     public void initialize()
     {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
+    @Override
     public void shutDown()
     {
         throw new UnsupportedOperationException("Not yet implemented");
